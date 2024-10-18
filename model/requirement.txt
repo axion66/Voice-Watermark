@@ -1,0 +1,10 @@
+python-dotenv
+flask_cors
+numpy
+torch
+soundfile
+scipy
+TTS
+librosa
+matplotlib
+pydub

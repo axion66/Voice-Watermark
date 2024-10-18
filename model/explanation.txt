@@ -1,0 +1,16 @@
+how the system works?
+
+
+
+call makeAudio.py(need input text) to generate output.wav
+
+
+call addWatermark.py(no need for inputs) to generate output_watermarked.wav from output.wav
+
+
+later, call detectWatermark.py(need input for the audio file's path) to detect. if watermark is detected, returns "1", else "-1"
+
+
+
+
+before running the code, please run "pip3 install -r requirement.txt" on the shell to install dependencies. Using virtual environment can prevent conflicts if you prefer.
